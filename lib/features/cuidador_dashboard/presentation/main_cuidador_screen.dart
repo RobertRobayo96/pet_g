@@ -30,7 +30,7 @@ class _MainCuidadorScreenState extends State<MainCuidadorScreen> {
       child: Scaffold(
         backgroundColor: const Color(0xFFF3F4F6),
 
-        // 🍔 MENÚ LATERAL (DRAWER)
+        // MENÚ LATERAL (DRAWER)
         drawer: Drawer(
           child: ListView(
             padding: EdgeInsets.zero,
@@ -89,7 +89,7 @@ class _MainCuidadorScreenState extends State<MainCuidadorScreen> {
           ),
         ),
 
-        // 📋 BARRA SUPERIOR (APPBAR)
+        // BARRA SUPERIOR (APPBAR)
         appBar: AppBar(
           backgroundColor: const Color(0xFF1E3A8A),
           elevation: 0,
